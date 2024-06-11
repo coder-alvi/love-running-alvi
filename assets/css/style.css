@@ -29,7 +29,7 @@ h3 {
 
 .hidden-heading {
     display: none;
-    
+
 }
 
 /* Header */
@@ -189,6 +189,16 @@ main {
 #times h3 {
     /* Override the heading colour set in general styles */
     color: #fafafa;
+}
+
+/* Gallery page */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
 }
 
 /* Footer */
